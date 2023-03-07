@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../src/style.css">
+    <title>Yummy Bistro</title>
 </head>
-<body>
-    <div id="content"></div>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid d-flex justify-content-center justify-content-sm-between">
+            <a href="#" class="navbar-brand name">
+                <i class="bi bi-cup-hot-fill text-light"></i>
+                Yummy Bistro
+            </a>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <i class="bi bi-house-door-fill"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light">
+                        <i class="bi bi-journal"></i>
+                        Menu
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light">
+                        <i class="bi bi-person-lines-fill"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content">
+        <div class="container img-container position-fixed d-flex justify-content-center justify-content-sm-start">
+            <img src="../src/img/coffee.jpg" id="coffee" alt="Photo of a coffee">
+        </div>
+        <div class="container text-center">
+            <div class="text-warning big name">Yummy Bistro</div>
+            <div class="text d-flex justify-content-center justify-content-sm-end mt-5">
+                <div class="lead text-light about-us">
+                    <div class="display-4">About Us</div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, architecto expedita iste a voluptatum saepe cupiditate inventore eos soluta, dignissimos adipisci iusto distinctio labore impedit ipsam quam quisquam possimus itaque perferendis sed reiciendis eveniet dicta neque? Sunt nostrum modi nemo mollitia, aut repudiandae, delectus eum rerum ea vitae, unde assumenda?</div>
+            </div>
+        </div>
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>
