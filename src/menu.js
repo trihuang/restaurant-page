@@ -21,8 +21,29 @@ function changeToMenuTab() {
     row.classList.add('row-cols-md-3');
     row.classList.add('row-cols-lg-4');
 
-    const pizzaCard = makeCard(pizza, 'Hawaiian Pizza', '$10');
+    const pizzaCard = makeCard(pizza, 'Hawaiian Pizza', '$9');
     row.appendChild(pizzaCard);
+
+    const pastaCard = makeCard(pasta, 'Seafood Pasta', '$10');
+    row.appendChild(pastaCard);
+
+    const burgerCard = makeCard(burger, 'Burger', '$7');
+    row.appendChild(burgerCard);
+
+    const risottoCard = makeCard(risotto, 'Risotto', '$12');
+    row.appendChild(risottoCard);
+
+    const toastCard = makeCard(toast, 'French Toast', '$6');
+    row.appendChild(toastCard);
+
+    const cakeCard = makeCard(cake, 'Berry Cake', '$5');
+    row.appendChild(cakeCard);
+
+    const coffeeCard = makeCard(coffee, 'Coffee', '$4');
+    row.appendChild(coffeeCard);
+
+    const smoothieCard = makeCard(smoothie, 'Berry Smoothie', '$4');
+    row.appendChild(smoothieCard);
 
     container.appendChild(row);
     parentDiv.appendChild(container);
