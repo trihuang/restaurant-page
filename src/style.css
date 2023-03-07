@@ -3,8 +3,16 @@
     font-size: 2rem;
 }
 
+.readable {
+    font-size: 1.8rem;
+}
+
 .big {
     font-size: 7rem;
+}
+
+.medium {
+    font-size: 4rem;
 }
 
 .img-container {
@@ -43,3 +51,35 @@
     height: 350px;
     object-fit: cover;
 }
+
+.contact-container img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 50px;
+    font-size: 2rem;
+}
+
+.icons i:nth-of-type(2) {
+    color: #3b5998;
+}
+
+.icons i:nth-of-type(1) {
+    color: #55acee;
+}
+
+.icons i:nth-of-type(3) {
+    color: #ac2bac;
+}
+
+.icons i:nth-of-type(4) {
+    color: #0082ca;
+}
+
+.shadow {
+    text-shadow: 3px 3px white;
+}
+
