@@ -24,7 +24,6 @@
     width: 80vw;
 }
 
-
 @media (max-width: 576px) {
     .text {
         width: 100vw;
@@ -35,3 +34,12 @@
     }
 }
 
+.card {
+    width: 18rem;
+    height: 36rem;
+}
+
+.card img {
+    height: 350px;
+    object-fit: cover;
+}

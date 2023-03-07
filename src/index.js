@@ -1,5 +1,7 @@
 import './style.css';
 import { changeToHomeTab } from './home';
+import { changeToMenuTab } from './menu';
+import { changeToContactTab } from './contact';
 
 const content = document.getElementById('content');
 const homeTab = document.querySelector('.home');
@@ -31,14 +33,12 @@ function changeTab(e) {
         currentTab = tabs[1];
         removeAllChildNodes(content);
         updateTabs(currentTab);
-        // Change to menu page
-        console.log('change to menu...');
+        changeToMenuTab();
     } else if (e.target.classList.contains('contact')) {
         currentTab = tabs[2];
         removeAllChildNodes(content);
         updateTabs(currentTab);
-        // Change to contact page
-        console.log('change to contact...');
+        changeToContactTab();
     }
 }
 
@@ -73,4 +73,4 @@ function updateTabs(current) {
     }
 }
 
-changeToHomeTab();
+//changeToHomeTab();

@@ -42,7 +42,9 @@ function changeToHomeTab() {
     displayText.classList.add('display-4');
     displayText.textContent = 'About Us';
     leadText.appendChild(displayText);
-    leadText.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, architecto expedita iste a voluptatum saepe cupiditate inventore eos soluta, dignissimos adipisci iusto distinctio labore impedit ipsam quam quisquam possimus itaque perferendis sed reiciendis eveniet dicta neque? Sunt nostrum modi nemo mollitia, aut repudiandae, delectus eum rerum ea vitae, unde assumenda?';
+    const div = document.createElement('div');
+    div.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, architecto expedita iste a voluptatum saepe cupiditate inventore eos soluta, dignissimos adipisci iusto distinctio labore impedit ipsam quam quisquam possimus itaque perferendis sed reiciendis eveniet dicta neque? Sunt nostrum modi nemo mollitia, aut repudiandae, delectus eum rerum ea vitae, unde assumenda?';
+    leadText.appendChild(div);
     textDiv.appendChild(leadText);
     textContainer.appendChild(textDiv);
 
