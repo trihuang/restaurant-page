@@ -1,1 +1,1 @@
-console.log("Foo Bar!");
+import './style.css';

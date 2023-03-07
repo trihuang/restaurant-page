@@ -1,0 +1,37 @@
+.name {
+    font-family: Pacifico, monospace, sans-serif;
+    font-size: 2rem;
+}
+
+.big {
+    font-size: 7rem;
+}
+
+.img-container {
+    z-index: -1;
+}
+
+#coffee {
+    height: 700px;
+}
+
+.about-us {
+    width: 600px;
+    font-family: monospace, sans-serif;
+}
+
+.text {
+    width: 80vw;
+}
+
+
+@media (max-width: 576px) {
+    .text {
+        width: 100vw;
+    }
+
+    .about-us {
+        background-color: rgba(119, 117, 117, 0.5);
+    }
+}
+
