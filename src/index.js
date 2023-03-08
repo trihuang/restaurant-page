@@ -73,4 +73,4 @@ function updateTabs(current) {
     }
 }
 
-//changeToHomeTab();
+changeToHomeTab();
