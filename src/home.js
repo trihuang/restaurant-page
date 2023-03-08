@@ -1,3 +1,5 @@
+import coffee from './img/coffee.jpg';
+
 function changeToHomeTab() {
     const parentDiv = document.getElementById('content');
 
@@ -9,8 +11,8 @@ function changeToHomeTab() {
     photoDiv.classList.add('justify-content-center');
     photoDiv.classList.add('justify-content-sm-start');
     
-    const img = document.createElement('img');
-    img.src = '../src/img/coffee.jpg';
+    const img = new Image();
+    img.src = coffee;
     img.id = 'coffee';
     img.alt = 'Photo of a coffee';
     photoDiv.appendChild(img);

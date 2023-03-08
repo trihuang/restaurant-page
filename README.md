@@ -13,4 +13,4 @@ The styling is mainly done with Bootstrap.
     <img src="./src/img/screenshot2.png" width="800">
 </p>
 </br>
-Link:
+Link: https://trihuang.github.io/restaurant-page/
