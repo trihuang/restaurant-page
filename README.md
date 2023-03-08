@@ -4,8 +4,10 @@ A restaurant landing page where each tab page is dynamically rendered with JavaS
 </br>
 The styling is mainly done with Bootstrap.
 
-![Image](./src/img/screenshot1.png | width=250)
+![Image](./src/img/screenshot1.png)
+<img src="./src/img/screenshot1.png" width="250">
 </br>
-![Image](./src/img/screenshot2.png | widht=250)
+![Image](./src/img/screenshot2.png)
+<img src="./src/img/screenshot2.png" width="250">
 </br>
 Link:
