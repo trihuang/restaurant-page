@@ -1,16 +1,16 @@
 # Restaurant Page
 
 A restaurant landing page where each tab page is dynamically rendered with JavaScript.
-</br>
+<br/>
 The styling is mainly done with Bootstrap.
-</br>
+<br/>
 
 <p align="center">
     <img src="./src/img/screenshot1.png" width="800">
 </p>
-</br>
+<br/>
 <p align="center">
     <img src="./src/img/screenshot2.png" width="800">
 </p>
-</br>
+<br/>
 Link: https://trihuang.github.io/restaurant-page/
