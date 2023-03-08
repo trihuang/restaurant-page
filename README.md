@@ -4,6 +4,7 @@ A restaurant landing page where each tab page is dynamically rendered with JavaS
 <br/>
 The styling is mainly done with Bootstrap.
 <br/>
+Please view the webpage in Google Chrome for best user experience.
 
 <p align="center">
     <img src="./src/img/screenshot1.png" width="800">
